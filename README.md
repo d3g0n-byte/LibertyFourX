@@ -15,3 +15,4 @@ Supports: WTD, WTX
 
 ## Note:
 - You do not need to save the archive after adding/replacing a file to view the new file.
+- Some resources are compressed using the zlib method (most resources use zstd), so they may not open. There is mention of zlib compression in the game's executable file, but I don't yet have confirmation that the game will be able to work with such files.
